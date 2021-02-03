@@ -1,0 +1,100 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0px 0px;
+}
+button:focus {
+  outline: none;
+}
+
+/* header-css-start */
+
+.header > .happyfox-nav {
+  background-color: #f4f6f6;
+  height: 3rem;
+  justify-content: start;
+}
+
+.header > .happyfox-nav > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header > .happyfox-nav > div > img {
+  width: 120px;
+  margin-top: -5px;
+}
+
+.header > .helpdesk-nav {
+  background-color: #ffffff;
+  height: 60px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
+  box-shadow: 0px 5px 10px 0pxrgba (105, 105, 105, 0.35);
+}
+.header > div {
+  width: 100%;
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.sandwich {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.left-buttons > img {
+  width: 30px;
+  margin-top: -15px;
+}
+
+.sandwich > hr {
+  width: 20px;
+  margin-bottom: 5px;
+  height: 1px;
+  background-color: #b2b2b2;
+  border-radius: 5px;
+  border: 1px solid #b2b2b2;
+}
+
+.left-buttons {
+  display: flex;
+}
+.right-buttons {
+  margin-right: 50px;
+}
+.right-buttons > button,
+.happyfox-nav > div > a > button,
+.right-buttons > a > button {
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.right-buttons > button:hover,
+.right-buttons > a > button:hover {
+  background-color: #f4f6f6;
+}
+
+.happyfox-nav > div > a > button:hover {
+  background-color: white;
+}
+
+.right-buttons > a > .demo-btn {
+  background-color: #e8580a;
+  color: white;
+}
+.right-buttons > a > .demo-btn:hover {
+  background-color: #c54c0b;
+  color: white;
+}
+
+/* header-css-end */
