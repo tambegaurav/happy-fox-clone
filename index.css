@@ -26,9 +26,9 @@ button:focus {
   justify-content: space-between;
   width: 100%;
 }
-.header > .happyfox-nav > div > img {
+.header > .happyfox-nav > div > a > img {
   width: 120px;
-  margin-top: -5px;
+  margin-top: 5px;
 }
 
 .header > .helpdesk-nav {
@@ -53,7 +53,7 @@ button:focus {
 }
 .left-buttons > img {
   width: 30px;
-  margin-top: -15px;
+  margin-top: -20px;
 }
 
 .sandwich > hr {
