@@ -1,224 +1,219 @@
-body{
+/* body{
     width: auto;
     height: auto;
     background-color:whitesmoke  ;
 }
-
-.main{
-    width: 99%;
-    height: auto;
-    margin: auto;
-    margin-top: 10%;
-    margin-left: 0%;
+*/
+.main {
+  width: 99%;
+  height: auto;
+  margin: auto;
+  margin-top: 10%;
+  margin-left: 0%;
 }
 
-#Pricing{
-    width: 100%;
-    margin: auto;
-    padding: 0.5%;
-    padding-bottom:0% ;
+#Pricing {
+  width: 100%;
+  margin: auto;
+  padding: 0.5%;
+  padding-bottom: 0%;
 }
-.container{
-    width: 70%;
-    margin:  auto 15%;
-    text-align: center;
-    padding-bottom:0% ;
-
+.container {
+  width: 70%;
+  margin: auto 15%;
+  text-align: center;
+  padding-bottom: 0%;
 }
-.box_in{
-    width: 100%;
-    height: auto;
-    margin: auto;
+.box_in {
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
-.box_in>h1{
-    /* width: 100%;
+.box_in > h1 {
+  /* width: 100%;
     margin: auto; */
-    font-weight:300;
-    color: #323643;
-    font-size: 40px;
-    margin-bottom:4% ;
-    
-
+  font-weight: 300;
+  color: #323643;
+  font-size: 40px;
+  margin-bottom: 4%;
 }
-#Pricing span{
-    width: 100%;
-    margin: auto;
-    color: #323643;
-    font-weight: 600;
-    font-size: 40px;
-    margin-bottom:4% ;
-
+#Pricing span {
+  width: 100%;
+  margin: auto;
+  color: #323643;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 4%;
 }
 
-.type_agents{
-
-    min-width: 500px;
-    max-width: auto;
-    width: 95%;
-    display: flex;
-    margin: 0 auto;
-    justify-content:  space-between;
-    align-items: flex-end;
-    /* border: 1px solid brown; */
-    margin-top: 5%;
+.type_agents {
+  min-width: 500px;
+  max-width: auto;
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* border: 1px solid brown; */
+  margin-top: 5%;
 }
 
-.type_agents a{
-    text-decoration: none;
-    flex-wrap: wrap;
-    min-width:800px ;
+.type_agents a {
+  text-decoration: none;
+  flex-wrap: wrap;
+  min-width: 800px;
 }
-.type_agents a:nth-child(1){
-    height: 100px;
-    width: 50%;
-    margin: auto;
-    color: white;
-    border-radius: 4%;
-    background-color:#e7695a;
-    min-width: 100px;
-    min-height: 120px;
-    max-width: auto;
-}
-
-.type_agents a>h4{
-    font-size: 25px;
-    margin-bottom: 0%;
-    font-weight: 100;
-    font-style:normal;
-}
-.type_agents a>p{
-    margin-top: 1%;
-}
-.type_agents a:nth-child(2){
-    color: white;
-    height: 100px;
-    width: 40%;
-    margin: auto;
-    color: rgb(31, 31, 31);
-    border-radius: 4%;
-    /* background-color: rgb(255, 94, 0); */
-    min-width: 100px;
-    min-height: 120px;
-    max-width: auto;
-    
+.type_agents a:nth-child(1) {
+  height: 100px;
+  width: 50%;
+  margin: auto;
+  color: white;
+  border-radius: 4%;
+  background-color: #e7695a;
+  min-width: 100px;
+  min-height: 120px;
+  max-width: auto;
 }
 
-#type_of_pricing{
-    padding-left: 10%;
-    padding-right: 10%;
-    /* display: flex;
+.type_agents a > h4 {
+  font-size: 25px;
+  margin-bottom: 0%;
+  font-weight: 100;
+  font-style: normal;
+}
+.type_agents a > p {
+  margin-top: 1%;
+}
+.type_agents a:nth-child(2) {
+  color: white;
+  height: 100px;
+  width: 40%;
+  margin: auto;
+  color: rgb(31, 31, 31);
+  border-radius: 4%;
+  /* background-color: rgb(255, 94, 0); */
+  min-width: 100px;
+  min-height: 120px;
+  max-width: auto;
+}
+
+#type_of_pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+  /* display: flex;
     flex-wrap: wrap;
     margin: 60px auto;
     justify-content:space-between ;
     text-align: center;
     align-items: flex-start; */
 }
-#Pricing_plan{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 60px auto;
-    justify-content:space-between ;
-    text-align: center;
-    align-items: flex-start;
+#Pricing_plan {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-start;
 }
 
-.Type_pricing{
-    width: 23%;
-    border-radius: 6px;
-    background-color: white;
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,.1);;
-    min-height: 300px;
-    height: auto;
+.Type_pricing {
+  width: 23%;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+  height: auto;
 }
 
-.price_btn{
-    display: flex;
-    padding: 0 25px;
-    flex-direction: column;
+.price_btn {
+  display: flex;
+  padding: 0 25px;
+  flex-direction: column;
 }
 
-.price_btn button{
-    width: 100%;
-    display: inline-block;
-    padding: 10px 15px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    color: #000;
-    font-weight: 600;
-    cursor: pointer;
-    margin: 1.5%;
+.price_btn button {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1.5%;
 }
 
-.price_btn button.filled{
-    background-color: rgba(231,105,90,.05);
-    border: solid 1px #e7695a;
-    color: #e7695a;
+.price_btn button.filled {
+  background-color: rgba(231, 105, 90, 0.05);
+  border: solid 1px #e7695a;
+  color: #e7695a;
 }
 
-.price_btn a:nth-child(1){
-    background-color: rgba(231,105,90,.05);
-    border: solid 1px #e7695a;
-    color: #e7695a;
+.price_btn a:nth-child(1) {
+  background-color: rgba(231, 105, 90, 0.05);
+  border: solid 1px #e7695a;
+  color: #e7695a;
 }
 
-.price_list li{
-    list-style: none;
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-    font-size: 13px;
-    color: #323643;
-    margin-bottom: 10px;
-    background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/list-icon.svg") no-repeat;
-    background-color: rgba(247, 239, 239, 0);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/list-icon.svg");
-    background-size: auto;
-    background-origin: padding-box;
-    background-clip: border-box;
-    background-position: left center;
+.price_list li {
+  list-style: none;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #323643;
+  margin-bottom: 10px;
+  background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/list-icon.svg")
+    no-repeat;
+  background-color: rgba(247, 239, 239, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/list-icon.svg");
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-position: left center;
 }
 
-.price_list li.plus{
-        background-color: rgba(0, 0, 0, 0);
-        background-position-x: 0px;
-        background-position-y: 0px;
-        background-repeat: repeat;
-        background-attachment: scroll;
-        background-image: none;
-        background-size: auto;
-        background-origin: padding-box;
-        background-clip: border-box;
-        padding-left: 0;
+.price_list li.plus {
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: none;
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  padding-left: 0;
 }
 
-.top-batch{
-    background: #e7695a;
-    width: 10%;
-    /* position:; */
-    top: -24px;
-    border-radius: 6px 6px 0 0;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 13px;
-    padding: 6px 0;
-    letter-spacing: .8px;
-    font-weight: 400;
+.top-batch {
+  background: #e7695a;
+  width: 10%;
+  /* position:; */
+  top: -24px;
+  border-radius: 6px 6px 0 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  padding: 6px 0;
+  letter-spacing: 0.8px;
+  font-weight: 400;
 }
 
-.price_banner{
-    margin: 0 auto 40px;
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    max-width: 85%;
+.price_banner {
+  margin: 0 auto 40px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 85%;
 }
-.price_pointer{
-    margin: auto;
-    text-align: center;
-    cursor: pointer;
-    display: block;
+.price_pointer {
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  display: block;
 }
