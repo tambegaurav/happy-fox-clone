@@ -9,6 +9,12 @@ button:focus {
 
 /* header-css-start */
 
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 .header > .happyfox-nav {
   background-color: #f4f6f6;
   height: 3rem;
@@ -98,3 +104,14 @@ button:focus {
 }
 
 /* header-css-end */
+
+/* jumbotron css start */
+
+.jumbotron {
+  height: 800px;
+  background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/home-banner.svg");
+  background-repeat: no-repeat;
+  background-color: aquamarine;
+  color: #ffffff;
+  margin-top: 138px;
+}
