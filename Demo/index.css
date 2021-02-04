@@ -1,123 +1,139 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-.container{
-    background-color: #1e212c;
-    border: 1px solid black;
-    width: 100%;
-    height:1000px;
-    margin: 0%;
-    padding: 0%;
+body > .container {
+  background-color: #1e212c;
+  width: 100%;
+  height: 1000px;
+}
+.box1 {
+  width: 550px;
+  height: 650px;
+  background-color: #1e212c;
+  float: left;
+  margin: 60px;
+  border-radius: 10px;
+  border: 1px solid #1e212c;
+  margin-top: 130px;
+}
+.box2 {
+  width: 550px;
+  height: 800px;
+  border: 1px solid black;
+  background-color: white;
+  float: left;
+  margin: 50px;
+  border-radius: 10px;
+}
+#h2 {
+  text-align: center;
+  font-size: 18px;
+  margin: 45px 20px;
+  color: #282529;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.box1{
-    width: 550px;
-    height: 650px;
-    background-color: #1e212c;
-    float: left;
-    margin:60px;
-    border-radius: 10px;
-    border: 1px solid #1e212c;
-    margin-top: 130px;
-}
-.box2{
-    width: 550px;
-    height: 800px;
-    border: 1px solid black;
-    background-color: white;
-    float: left;
-    margin: 50px;
-    border-radius: 10px;
 
+.input {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 0.5px solid rgb(150, 149, 149);
+  margin-bottom: 12px;
 }
-#h2{
-    text-align: center;
-    font-size: 28px;
-
+.red_box {
+  width: 80%;
+  height: 50px;
+  background-color: #ce2525;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  padding-top: 2px;
+  margin: 20px auto;
 }
-.input{
-    width: 70%;
-    height: 50px;
-    border-radius: 10px;
-    margin-left:15%;
-    font-size: 18px;
-
+.red_box h5 {
+  color: white;
+  font-size: 16px;
+  margin: auto;
+  margin: 14px 0;
 }
-.red_box{
-    width: 70%;
-    height: 50px;
-    background-color:#ce2525;
-    
-    
-    border-radius: 10px;
-    margin-left:15% ;
-    text-align:center;
-    padding-top:2px;
+.red_box:hover {
+  background-color: red;
 }
-.red_box h5{
-    color: white;
-    font-size: 16px;
-    margin: auto;
-    margin-top: 14px;
+.condition {
+  color: #adadad;
+  font-size: 13px;
+  font-weight: 300;
+  cursor: pointer;
+  text-align: center;
 }
-.red_box:hover{
-    background-color: red;   
+.condition > span:hover {
+  border-bottom: 1px dotted #333;
 }
-#img{
-    width: 150px;
-    height: 70px;
-    margin-left: 2%;
+#img {
+  width: 150px;
+  height: 70px;
+  margin-left: 2%;
 }
-#h3{
-    font-size: 25px;
-    color: white;
-    margin-left: 20px;
+#h3 {
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
 }
-.tick{
-    list-style: none;
+.tick {
+  list-style: none;
 }
-.tick > div{
-    
-    background-image: url(https://hfweb-assets.s3.amazonaws.com/img/check-list-icon.svg);
-    background-position-x: left;
-    background-position-y: center;
-    background-size: initial;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+.tick > div {
+  background-image: url(https://hfweb-assets.s3.amazonaws.com/img/check-list-icon.svg);
+  background-position-x: left;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
 }
-.tick p{
-   
-    color: white;
-    font-size: 16px;
-    margin-left: 4%;
+.tick p {
+  color: white;
+  font-size: 16px;
+  margin-left: 4%;
 }
-.box_3{
-    width: 400px; 
-    height: 120px;
-    border: 1px solid #191b23;
-    background-color: #191b23;
-    margin-left: 30px;
-    margin-top: 50px;
-    border-radius: 15px;
+.box_3 {
+  width: 400px;
+  height: 120px;
+  border: 1px solid #191b23;
+  background-color: #191b23;
+  margin-left: 30px;
+  margin-top: 50px;
+  border-radius: 15px;
 }
-#img2{
-    width: 20%;
-    vertical-align: middle;
-    margin-left: 20px;
-    margin-top: 20px;
+#img2 {
+  width: 20%;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-top: 20px;
 }
-#h4{
-    font-size: 18px;
-    color: white;
-    margin-left: 100px;
-    padding-left: 25px;
-
+#h4 {
+  font-size: 18px;
+  color: white;
+  margin-left: 100px;
+  padding-left: 25px;
 }
-.box_4{
-    width: 100px;
-    height: 15px;
-    margin-left: 120px;
-    margin-top: 1%;
+.box_4 {
+  width: 100px;
+  height: 15px;
+  margin-left: 120px;
+  margin-top: 1%;
 }
