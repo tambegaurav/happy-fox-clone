@@ -72,8 +72,8 @@ padding-left: 100px;
 .right-div>div>div
 {
     position: absolute;
-    height: 30%;
-    width: 30%;
+    height: 200px;
+    width: 400px;
     background-color: rgb(233, 231, 231); 
     float: left;
     border-radius: 10px;
