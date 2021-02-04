@@ -1,0 +1,39 @@
+
+#login_page
+{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 43% 43%;
+  grid-template-rows:  800px;
+}
+.left-div>div
+{
+  font-family: serif;
+  width: 80%;
+  height:600px;
+  
+  font-size: 30px ;
+  padding-top: 15%;
+  min-width: 300px;
+  padding-left: 10%;
+}
+.first_row
+{
+    width: 450px;
+    background-color: lightgrey;
+     height: 45px;
+     text-align:right;
+     font-size: 22.5px;
+     font-family: serif;
+     border-radius: 5px;
+}
+.submit_button
+{
+    margin-top: 10px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 5px;
+    width: 150px;
+    border-color: orangered;
+    font-size: 20px;
+}
