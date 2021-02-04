@@ -2,22 +2,25 @@
 #login_page
 {
   display: grid;
-  justify-content: center;
-  gap: 90px;
-  grid-template-columns: 600px 500px;
+  /* justify-content: center; */
+  gap: 50px;
+  grid-template-columns: 60% 50%;
   grid-template-rows:  800px;
   grid-template: "one two";
-  
+  margin: auto;
+
+ 
 }
 .left-div
 {
 grid-area: one;
+padding-left: 40px;
 padding-left: 20px;
 }
 .right-div
 {
     grid-area:two;
-   display: flex;
+    float: right;
 }
 .left-div>div
 {
@@ -27,7 +30,7 @@ padding-left: 20px;
   font-size: 35px ;
   padding-top: 19%;
   min-width: 300px;
-  padding-left: 0%;
+  padding-left: 30px;
 }
 .first_row
 {
@@ -36,7 +39,7 @@ padding-left: 20px;
      height: 40px;
      text-align:right;
      font-size: 15px;
-     font-family: serif;
+     font-family: 'Roboto';
      border-radius: 5px;   
 }
 .first_row>input
@@ -50,10 +53,11 @@ padding-left: 20px;
     margin-top: 1px;
     float: left;
     text-align: left;
-   margin-left: 1px;
-   padding-left: 15px;
-   margin-bottom: 1px;
-   border: none;
+    margin-left: 1px;
+    padding-left: 15px;
+    margin-bottom: 1px;
+    border: none;
+
    text-align: justify;
    padding-bottom: 6px;
 }
@@ -68,12 +72,29 @@ padding-left: 20px;
 {
     margin-top: 10px;
     height: 40px;
-    background-color: orangered;
+    background-color: rgb(241,102,49);
     border-radius: 5px;
     width: 150px;
-    border-color: orangered;
-    font-size: 20px;
+    /* border-color: rgb(241,102,49); */
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
     margin-bottom: 20px;
+    border:none ;
+}
+.Forgot_password
+{
+float: right;
+color: gray;
+width: 300px;
+margin-top: 20px;
+font-size: 17px;
+text-align: right;
+}
+.submit_pass
+{
+    width: 470px;
+   
 }
 .Forgot_password
 {
@@ -95,7 +116,7 @@ text-align: right;
     margin: 20px;
     width: 370px;
     height: 50px;  
-    background-color: rgb(233, 231, 231); 
+    background-color: rgb(237,239,249); 
     
 }
 .right-div>div>div>div>div>div
@@ -103,17 +124,18 @@ text-align: right;
     float: right;
     width: 55px;
     height: 25px;   
-    background-color: orange;
+    background-color: rgb(237,137,20);
     text-align: center;
     border-radius: 5px;
+    margin-right: 15px;
     /* margin: 5px; */   
 }
 .right-div>div>div
 {
     position: absolute;
-    height: 200px;
+    height: 190px;
     width: 400px;
-    background-color: rgb(233, 231, 231); 
+    background-color: rgb(237,239,249); 
     float: left;
     border-radius: 10px;
     margin: 50px;
@@ -138,11 +160,15 @@ text-align: right;
 .chat_box_massage>div:nth-child(2)
 {
     float:right;
-    background-color: lightgray;
-    width: 75px;
+    background-color: rgb(241,238,238);
+    width: 85px;
     height: 27px; 
-    border-radius: 5px;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 40px;
+    padding-top: 10px;
+
 }
 .chat_box_massage>div:nth-child(1)
 {
@@ -155,8 +181,12 @@ text-align: right;
 {
     #login_page
     {
-        grid-template: "one" "two";
-        
+        grid-template: "one";
         justify-content: center;
+    }
+    .right-div
+    {
+        display: none;
+
     }
 }
