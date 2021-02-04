@@ -94,6 +94,9 @@ function main(){
             }
             d.appendChild(div)
         }
+        
+        d.setAttribute("class","odd_Even")
+        d.setAttribute("class","hover odd_Even")
         tocont.appendChild(d)
     }
 }
