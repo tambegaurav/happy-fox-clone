@@ -224,3 +224,27 @@ button:focus {
   color: #6d717e;
   letter-spacing: 2px;
 }
+
+.support {
+  text-align: center;
+  color: #323643;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.support > .provide-title {
+  font-size: 28px;
+}
+.support > h3 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.support > p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #6d717e;
+  line-height: 26px;
+  margin: 70px auto;
+  margin-top: 20px;
+}
