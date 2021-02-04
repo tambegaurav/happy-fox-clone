@@ -12,6 +12,30 @@ body{
     margin-left: 0%;
 }
 
+#content_1, #content_2, #content_3 {
+
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    gap: 3%;
+}
+#content_1> div, #content_2>div,#content_3>div{
+    width: auto;
+    height:  auto;
+    margin: 0.7% 1%;
+    display: flex;
+    flex-flow: row;
+}
+
+#content_1>div>div, #content_2>div>div,#content_3>div>div{
+    width: 200px;
+    margin: auto;
+    position: relative;
+    height: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
 #Pricing{
     width: 100%;
     margin: auto;
@@ -358,7 +382,8 @@ body{
     margin: auto;
 }
 .hover:hover{
-    background-color: rgb(170, 169, 169);
+    background-color: rgb(235, 232, 232);
+    border: 0.5px dashed gray ;
 
 }
 #FAQ{
