@@ -4,8 +4,10 @@
   padding: 0;
 }
 
+
 body {
   background-color: #1e212c;
+
 }
 .box1 {
   width: 550px;
@@ -42,6 +44,7 @@ form {
 }
 
 .input {
+
   width: 85%;
   height: 50px;
   border-radius: 10px;
@@ -59,6 +62,7 @@ form {
 }
 .red_box {
   width: 85%;
+
   height: 50px;
   background-color: #ce2525;
   border-radius: 10px;
@@ -68,6 +72,7 @@ form {
   margin: 20px auto;
   cursor: pointer;
   margin-top: 10px;
+
 }
 .red_box h5 {
   color: white;
