@@ -3,8 +3,19 @@
 {
   display: grid;
   justify-content: center;
-  grid-template-columns: 43% 43%;
+  gap: 100px;
+  grid-template-columns: 50% 50%;
   grid-template-rows:  800px;
+  grid-template: "one two";
+}
+.left-div
+{
+grid-area: one;
+padding-left: 100px;
+}
+.right-div
+{
+    grid-area:two;
 }
 .left-div>div
 {
@@ -13,9 +24,9 @@
   height:600px;
   
   font-size: 30px ;
-  padding-top: 15%;
+  padding-top: 19%;
   min-width: 300px;
-  padding-left: 10%;
+  padding-left: 0%;
 }
 .first_row
 {
@@ -26,6 +37,7 @@
      font-size: 22.5px;
      font-family: serif;
      border-radius: 5px;
+     margin-bottom: 10px;
 }
 .submit_button
 {
@@ -36,4 +48,66 @@
     width: 150px;
     border-color: orangered;
     font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.right-div>div>div>div:nth-child(1)
+{
+    margin: 20px;
+    width: 370px;
+    height: 50px;  
+    background-color: rgb(233, 231, 231); 
+    
+}
+.right-div>div>div>div>div>div
+{
+    float: right;
+    width: 55px;
+    height: 25px;   
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    /* margin: 5px; */   
+}
+.right-div>div>div
+{
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    background-color: rgb(233, 231, 231); 
+    float: left;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 20px;
+}
+.chat_box_massage
+{
+    margin-top: 10%;
+    height: 50px;
+    width: auto;
+    font-size: 25px;
+    text-align: justify;
+}
+.chat_box_massage>div:nth-child(2)
+{
+    float:right;
+    background-color: lightgray;
+    width: 75px;
+    height: 30px; 
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.chat_box_massage>div:nth-child(1)
+{
+    float: left;
+
+}
+@media(max-width: 700px)
+{
+    #login_page
+    {
+        grid-template: "one"
+        "two";
+    }
 }
