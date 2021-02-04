@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0px 0px;
 }
+
 button:focus {
   outline: none;
 }
@@ -247,4 +248,27 @@ button:focus {
   line-height: 26px;
   margin: 70px auto;
   margin-top: 20px;
+}
+
+/* carousal */
+
+.carousal-container > .titles {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 800px;
+  color: #6d717e;
+  margin-bottom: 50px;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  height: 10px;
+}
+.titles > .title {
+  cursor: pointer;
+  padding-bottom: 20px;
+  min-width: 60px;
+}
+.titles > .title:hover {
+  border-bottom: 3px solid orange;
 }
