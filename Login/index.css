@@ -8,11 +8,14 @@
   grid-template-rows:  800px;
   grid-template: "one two";
   margin: auto;
+
+ 
 }
 .left-div
 {
 grid-area: one;
 padding-left: 40px;
+padding-left: 20px;
 }
 .right-div
 {
@@ -54,6 +57,7 @@ padding-left: 40px;
     padding-left: 15px;
     margin-bottom: 1px;
     border: none;
+
    text-align: justify;
    padding-bottom: 6px;
 }
@@ -85,6 +89,20 @@ color: gray;
 width: 300px;
 margin-top: 20px;
 font-size: 17px;
+text-align: right;
+}
+.submit_pass
+{
+    width: 470px;
+   
+}
+.Forgot_password
+{
+float: right;
+
+width: 300px;
+margin-top: 20px;
+font-size: 20px;
 text-align: right;
 }
 .submit_pass
@@ -150,6 +168,7 @@ text-align: right;
     text-align: center;
     border-radius: 40px;
     padding-top: 10px;
+
 }
 .chat_box_massage>div:nth-child(1)
 {
@@ -168,5 +187,6 @@ text-align: right;
     .right-div
     {
         display: none;
+
     }
 }
