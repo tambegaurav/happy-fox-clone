@@ -1,0 +1,162 @@
+
+#login_page
+{
+  display: grid;
+  justify-content: center;
+  gap: 90px;
+  grid-template-columns: 600px 500px;
+  grid-template-rows:  800px;
+  grid-template: "one two";
+  
+}
+.left-div
+{
+grid-area: one;
+padding-left: 20px;
+}
+.right-div
+{
+    grid-area:two;
+   display: flex;
+}
+.left-div>div
+{
+  font-family: serif;
+  width: 80%;
+  height:600px;
+  font-size: 35px ;
+  padding-top: 19%;
+  min-width: 300px;
+  padding-left: 0%;
+}
+.first_row
+{
+    width: 470px;
+    background-color: lightgrey;
+     height: 40px;
+     text-align:right;
+     font-size: 15px;
+     font-family: serif;
+     border-radius: 5px;   
+}
+.first_row>input
+{
+    width: 350px;
+    height: 20px;
+    padding-top: 12px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 1px;
+    float: left;
+    text-align: left;
+   margin-left: 1px;
+   padding-left: 15px;
+   margin-bottom: 1px;
+   border: none;
+   text-align: justify;
+   padding-bottom: 6px;
+}
+.first_row>div
+{
+    text-align: left;
+    padding-top: 12px ;
+    font-size: 17px;
+    color: lightslategray;
+}
+.submit_button
+{
+    margin-top: 10px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 5px;
+    width: 150px;
+    border-color: orangered;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Forgot_password
+{
+float: right;
+
+width: 300px;
+margin-top: 20px;
+font-size: 20px;
+text-align: right;
+}
+.submit_pass
+{
+    width: 470px;
+   
+}
+
+.right-div>div>div>div:nth-child(1)
+{
+    margin: 20px;
+    width: 370px;
+    height: 50px;  
+    background-color: rgb(233, 231, 231); 
+    
+}
+.right-div>div>div>div>div>div
+{
+    float: right;
+    width: 55px;
+    height: 25px;   
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    /* margin: 5px; */   
+}
+.right-div>div>div
+{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(233, 231, 231); 
+    float: left;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 20px;
+}
+.chat_box_massage
+{
+    margin-top: 10%;
+    height: 50px;
+    width: 470px;
+    font-size: 25px;
+    text-align: left;
+ 
+    
+}
+
+.chat_box_massage>div>img
+{
+ float: left;
+ margin-right: 15px;
+} 
+.chat_box_massage>div:nth-child(2)
+{
+    float:right;
+    background-color: lightgray;
+    width: 75px;
+    height: 27px; 
+    border-radius: 5px;
+    font-size: 20px;
+}
+.chat_box_massage>div:nth-child(1)
+{
+    float: left;
+    width: 300px;
+    
+
+}
+@media(max-width: 900px)
+{
+    #login_page
+    {
+        grid-template: "one" "two";
+        
+        justify-content: center;
+    }
+}
