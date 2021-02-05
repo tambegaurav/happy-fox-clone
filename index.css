@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0px 0px;
 }
+
 button:focus {
   outline: none;
 }
@@ -36,7 +37,7 @@ button:focus {
   height: 60px;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
   -moz-box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
-  box-shadow: 0px 5px 10px 0pxrgba (105, 105, 105, 0.35);
+  box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
 }
 .helpdesk-nav > div {
   padding: 0 2.5%;
@@ -53,6 +54,7 @@ button:focus {
   flex-direction: column;
   margin-left: 50px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .left-buttons > img {
   width: 20px;
@@ -110,6 +112,22 @@ button:focus {
   .right-buttons {
     display: none;
   }
+  .visible {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.973);
+    flex-direction: column;
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    align-items: center;
+  }
+  .right-buttons > button,
+  .right-buttons > a > button,
+  .right-buttons > a {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 1080px) {
   .sandwich {
@@ -122,7 +140,7 @@ button:focus {
 /* jumbotron css start */
 
 .jumbotron {
-  height: 800px;
+  /* height: 800px; */
   background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/home-banner.svg");
   background-repeat: no-repeat;
   color: #ffffff;
@@ -215,6 +233,7 @@ button:focus {
 }
 .brands > img {
   width: 120px;
+  margin: 0 30px;
 }
 .brands-content > h3 {
   text-transform: uppercase;
@@ -247,4 +266,223 @@ button:focus {
   line-height: 26px;
   margin: 70px auto;
   margin-top: 20px;
+}
+
+/* carousal */
+
+.carousal-container > .titles {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 800px;
+  color: #6d717e;
+  margin-bottom: 50px;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  height: 10px;
+}
+.titles > .title {
+  cursor: pointer;
+  padding-bottom: 20px;
+  min-width: 60px;
+}
+.titles > .title:hover {
+  border-bottom: 3px solid orange;
+}
+/* alignyourgoals */
+.jumbotron > .align-goals-sections {
+  background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/goal-background.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.align-goals-sections > h4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 200;
+  color: #fff;
+  margin-top: 130px;
+}
+
+.align-goals-sections > h3 {
+  font-weight: 400;
+  margin: 10px 0 60px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+.goals {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  gap: 5%;
+}
+
+.goals > .card {
+  height: 150px;
+  width: 100%;
+  justify-self: center;
+  background-color: #00000033;
+  margin: 20px;
+  padding: 15px;
+  padding-top: 30px;
+  transition: all 0.5s;
+}
+
+.goals > .card > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.goals > .card > .text h6 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.goals > .card > .text p {
+  font-size: 15px;
+}
+.goals > .card:hover {
+  background-color: #02020298;
+}
+
+@media (max-width: 1200px) {
+  .goals > .card {
+    height: 120px;
+    width: 100%;
+    justify-self: center;
+    background-color: #00000033;
+  }
+  .goals {
+    grid-template-columns: 80%;
+    gap: 10px;
+  }
+  .align-goals-sections {
+    height: 1200px;
+  }
+  .goals > .card > .text h6 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  .goals > .card > .text p {
+    font-size: 12px;
+  }
+}
+
+.goals-buttons {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+  max-width: 400px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.goals-buttons > button {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+  background-color: #d4450e;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%);
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  max-width: 250px;
+  justify-self: center;
+  min-width: 120px;
+  margin-bottom: 20px;
+}
+.goals-buttons > button:nth-child(1) {
+  border: 1px solid #323643;
+  background: whitesmoke;
+  color: #181c20;
+}
+.goals-buttons > button:nth-child(1):hover {
+  background-color: #3236438f;
+  color: whitesmoke;
+  border: 2px solid white;
+}
+.goals-buttons > button:nth-child(2):hover {
+  background-color: #f56329;
+}
+
+.help-desk-section {
+  background-color: violet;
+}
+
+.help-desk-section > p,
+h3,
+.business-app > p,
+h3 {
+  font-size: 32px;
+  color: #323643;
+  word-spacing: 3px;
+  font-weight: 300px;
+  line-height: 50px;
+}
+
+.business-app {
+  margin-top: 50px;
+}
+.business-app > .apps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.business-app > .apps > div {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(59, 59, 59, 0.35);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(54, 54, 54, 0.35);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(58, 58, 58, 0.35);
+  align-items: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 80px;
+  transition: 0.5s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.business-app > .apps > div:hover {
+  transform: translate(2px, -2px);
+}
+.integration-btn {
+  padding: 0 10px;
+  background-color: #181c20 !important;
+  color: white !important;
+}
+
+.integration-btn:hover {
+  background-color: white !important ;
+  color: #181c20 !important;
+  border: 2px solid #2b2f33 !important;
+}
+@media (max-width: 900px) {
+  .business-app > .apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .business-app > .apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+  }
 }

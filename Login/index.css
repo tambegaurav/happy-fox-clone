@@ -1,6 +1,18 @@
-
+body {
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+  }
+.main{
+    width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 10%;
+  margin-left: 0%;
+}
 #login_page
 {
+    width: 100%;
   display: grid;
   /* justify-content: center; */
   gap: 50px;
@@ -65,7 +77,7 @@ padding-left: 20px;
 {
     text-align: left;
     padding-top: 12px ;
-    font-size: 17px;
+    font-size: 15px;
     color: lightslategray;
 }
 .submit_button
@@ -130,6 +142,10 @@ text-align: right;
     margin-right: 15px;
     /* margin: 5px; */   
 }
+.for_float{
+    /* float: left; */
+    /* clear: both; */
+}
 .right-div>div>div
 {
     position: absolute;
@@ -138,7 +154,8 @@ text-align: right;
     background-color: rgb(237,239,249); 
     float: left;
     border-radius: 10px;
-    margin: 50px;
+    margin: 100px;
+    /* clear: both; */
     font-size: 20px;
 }
 .chat_box_massage
@@ -177,6 +194,36 @@ text-align: right;
     
 
 }
+footer{
+    padding: 1%;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+  }
+  footer hr{
+    border: 0.1px solid  rgb(105, 105, 105);
+    color: rgb(105, 105, 105);
+  }
+  .footer{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  li{
+    margin: 2%;
+  }
+  .footer img{
+    padding-top:1% ;
+  }
+  .for_footer{
+    width: 80%;
+    margin: auto;
+  }
 @media(max-width: 900px)
 {
     #login_page

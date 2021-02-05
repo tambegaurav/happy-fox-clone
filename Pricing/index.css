@@ -5,10 +5,10 @@ body {
 }
 
 .main {
-  width: 99%;
+  width: 100%;
   height: auto;
   margin: auto;
-  margin-top: 138px;
+  margin-top: 120px;
   margin-left: 0%;
 }
 
@@ -44,7 +44,8 @@ body {
 #Pricing {
   width: 100%;
   margin: auto;
-  padding: 0.5%;
+  padding: 0.1%;
+  /* height: ; */
   padding-bottom: 0%;
   background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-banner-bg.svg ");
 }
@@ -78,35 +79,47 @@ body {
 }
 
 .type_agents {
-  min-width: 500px;
+  min-width: 400px;
   max-width: auto;
-  width: 95%;
+  /* width: 95%; */
   display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: flex-end;
+  margin: auto;
+  flex-grow: 1;
+  /* justify-content:right; */
+  /* align-items:cen; */
   /* border: 1px solid brown; */
-  margin-top: 3%;
+  /* margin-top: 3%; */
 }
 
 .type_agents a {
+  flex-grow: 1;
   text-decoration: none;
   flex-wrap: wrap;
-  min-width: 800px;
+  /* margin-left: 0;
+  margin-right: 0; */
+  min-width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px; 
 }
 .type_agents a:nth-child(1) {
   height: 100px;
-  width: 50%;
+  width: 30%;
   margin: auto;
   color: white;
-  border-radius: 4%;
   background-color: #e7695a;
   min-width: 100px;
   min-height: 120px;
   max-width: auto;
 }
+.type_agents a:nth-child(2){
+  /* width: 61%; */
+  border-top-left-radius: 10px;
+  border-top-right-radius:10%;
+}
 .type_agents a:nth-child(2):hover {
   color: white;
+  /* height: 125px; */
+  /* width: 45%; */
   background-color: rgb(68, 68, 143);
 }
 .type_agents a > h4 {
@@ -119,14 +132,19 @@ body {
 .type_agents a > p {
   margin-top: 1%;
 }
+.Type_pricing hr{
+  margin-bottom: 4%;
+}
 .type_agents a:nth-child(2) {
   color: white;
   height: 100px;
-  width: 40%;
+  width: 30%;
   margin: auto;
   color: rgb(31, 31, 31);
-  border-radius: 4%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   /* background-color: rgb(255, 94, 0); */
+  border:1px solid rgb(209, 209, 209);
   min-width: 100px;
   min-height: 120px;
   max-width: auto;
@@ -134,7 +152,7 @@ body {
 
 #type_of_pricing {
   padding: 10%;
-  padding-top: 5%;
+  padding-top: 1%;
   padding-right: 10%;
   background-image: linear-gradient(
     to bottom,
@@ -158,15 +176,19 @@ body {
   background-color: white;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   min-height: 300px;
-  height: auto;
+  height: 400px;
   padding: 1%;
-  padding-top: 2%;
+  padding-top: 5%;
+  min-width: 250px;
+  margin-top:2% ;
+  font-weight: 100;
 }
 .Type_pricing:hover {
   box-shadow: 10px 50px 70px 0 rgba(0, 0, 0, 0.1);
 }
 .Type_pricing h1 {
   margin-bottom: 6%;
+  font-weight: 100;
 }
 
 .price_btn {
@@ -175,9 +197,13 @@ body {
   flex-direction: column;
   margin-bottom: 10%;
 }
+.plus span{
+  font-weight: 700;
+}
 
-.price_btn button {
-  width: 100%;
+.price_btn a {
+  text-decoration: none;
+  width: 80%;
   display: inline-block;
   padding: 10px 15px;
   border: 1px solid #000;
@@ -188,10 +214,16 @@ body {
   margin: 1.5%;
 }
 
-.price_btn button.filled {
+
+.price_btn a.filled {
   background-color: rgba(231, 105, 90, 0.05);
   border: solid 1px #e7695a;
   color: #e7695a;
+}
+.price_btn a:nth-child(1):hover {
+  background-color:#e7695a ;
+  color: white;
+  font-size: large;
 }
 
 /* .price_btn a:nth-child(1){
@@ -279,6 +311,8 @@ body {
   /* width: 20px; */
   font-size: 20px;
   width: 300px;
+  min-width: 90px;
+  margin-bottom: 2%;
   /* margin-left: 70px;
     text-align:unset; */
 }
@@ -293,11 +327,48 @@ body {
   text-align: unset;
 }
 #table > h3 {
+  margin-top:2% ;
+  margin-bottom:2% ;
   font-size: 17px;
   color: #f16631;
 }
+/* .naming{
+  text-align: ;
+} */
 .odd_Even:nth-child(2n) {
   background-color: #ffffff;
+}
+.xyz {
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg");
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 60px;
+  height: 30px;
+  margin: auto;
+}
+.xyz_exception {
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg"); */
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 60px;
+  height: 30px;
+  margin: auto;
+}
+.hover:hover {
+  background-color: rgb(235, 232, 232);
+  border: 0.5px dashed gray;
 }
 #content {
   display: flex;
@@ -332,7 +403,7 @@ body {
 .question_row {
   margin-top: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -340,7 +411,7 @@ body {
   font-size: 28px;
   color: #323643;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 2%;
   flex-flow: row;
 }
 .faq_start > h2 {
@@ -354,40 +425,14 @@ body {
 }
 .question_column {
   flex-grow: 0;
-  width: 48%;
-  margin-top: 10px;
-}
-.xyz {
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: left;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg");
-  background-size: auto;
-  background-origin: padding-box;
-  background-clip: border-box;
-  width: 60px;
-  height: 30px;
-  margin: auto;
-}
-.xyz_exception {
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: left;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  /* background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg"); */
-  background-size: auto;
-  background-origin: padding-box;
-  background-clip: border-box;
-  width: 60px;
-  height: 30px;
-  margin: auto;
-}
-.hover:hover {
-  background-color: rgb(235, 232, 232);
-  border: 0.5px dashed gray;
+  font-size: large;
+  line-height: 30px;
+  width: 45%;
+  height:auto;
+  margin-top: 25px;
+  color: #706b6b;
+  margin-bottom: 20px;
+  
 }
 #FAQ {
   width: 80%;
@@ -418,7 +463,13 @@ body {
   margin: auto;
   width: 50%;
 }
+.floating div:nth-child(1){
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
 .floating p {
+  margin-top: 10px;
+  line-height: 29px;
   color: #88898a;
   font-size: 18px;
 }
@@ -427,16 +478,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   padding-top: 3%;
+  margin-top: 1%;
 }
 .contact_btn button {
   /* padding: 5%; */
   width: 30%;
   height: 50px;
+  font-size: 16px;
   border-radius: 6px;
+  
 }
 .contact_btn button:hover {
+  /* width: 32%; */
+  transform:translateY(2px);
+  color: white;
+  /* font-size: large; */
 }
 .contact_btn button:nth-child(2) {
   background-color: rgba(231, 105, 90, 0.05);
@@ -447,8 +505,164 @@ body {
 }
 .contact_btn button:nth-child(1) {
   background-color: rgb(255, 255, 255);
-  border: solid 1px #e7695a;
+  border: solid 1px #000000;
   /* background-color: #e7695a; */
   color: black;
   /* font-size: large; */
 }
+
+footer{
+  padding: 1%;
+  height: auto;
+  width: auto;
+  margin: auto;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+footer hr{
+  border: 0.1px solid  rgb(105, 105, 105);
+  color: rgb(105, 105, 105);
+}
+.footer{
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+li{
+  margin: 2%;
+}
+.footer img{
+  padding-top:1% ;
+}
+.for_footer{
+  width: 80%;
+  margin: auto;
+}
+@media(max-width: 900px){
+  .footer{
+
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .right-buttons {
+    display: none;
+  }
+  .Type_pricing{
+    margin-top:2% ;
+    min-width: 300px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .sandwich {
+    display: none;
+  }
+}
+
+@media(max-width: 900px)
+{
+  .box_in{
+    margin-left: 1px;
+    min-width:300px;
+  }
+  .type_agents{
+    margin: 0%;
+    min-width: auto;
+    /* min-height: 150px; */
+    margin-left:10px;
+  }
+  .type_agents p{
+    display: none;
+  }
+  #header > div {
+    min-width: 60px;
+  }
+  #Pricing_plan{
+    flex-flow: column;
+  }
+  .contact_btn{
+    margin-top: 0%;
+  }
+  .Type_pricing{
+    padding: 3%;
+    margin: auto;
+    margin-top:2% ;
+    min-width: 95%;
+  }
+  .Type_pricing h1{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .Type_pricing  .price_btn{
+    margin-bottom: 2%;
+  }
+  .Type_pricing hr{
+    margin-bottom: 4%;
+  }
+  .faq_start{
+    margin-top: 2%;
+  }
+  .question_row{
+    height: auto;
+    min-width: 500px;
+    flex-flow: column;
+  }
+  .question_column{
+    min-width: 80%;
+    line-height: 30px;
+    margin: auto;
+    font-size: large;
+    margin-top: 2%;
+  }
+  .question_column p{
+    font-size: large;
+  }
+  .floating{
+    min-width: 500px;
+  }
+  .floating >div{
+    width: 80%;
+    margin: 5% auto;
+  }
+  /* .naming{
+    height: 350px;
+
+  } */
+  #content> div,#content_1> div,#content_2> div,#content_3> div{
+    height: 50px;
+  }
+  .floating button{
+    min-width: 300px;
+    margin: 2%;
+  }
+    #login_page
+    {
+        grid-template: "one";
+        justify-content: center;
+    }
+    .right-div
+    {
+        display: none;
+
+    }
+}
+@media(max-width: 900px){
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
