@@ -1,0 +1,149 @@
+*{
+    font-family: serif;
+}
+body{
+    background-color: #f4f6f8;
+}
+
+#p1{
+    margin-left: 33%;
+    font-size: 28px;
+    color: #c6ccd5;
+    
+
+}
+#p2{
+    margin-left: 30%;
+    font-size: 35px;
+    line-height: 1px;
+}
+
+.layout{
+    display: grid;
+    gap:40px;
+     grid-template:"a b"
+      "c d";
+    padding:2%;
+    width: 100%;
+    justify-content: center;
+    
+    margin: 0%; 
+    
+}
+#img{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#img1{
+    margin-top:-38px;
+    margin-right:210px;
+}
+#img2{
+    margin-top:-38px;
+    margin-right:260px;
+}
+#p3{
+    padding-left: 80px;
+    margin-top:30px;
+    font-size: 20px;
+    font-family: serif;
+    color: lightgrey;
+
+}
+
+#box1{
+    height:180px;
+    width:500px;
+    background:white;
+    grid-area:a;
+    border-radius: 4px;
+    box-shadow: -0px -7px red;
+    position: relative;
+    animation-name: rohit;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+  }
+  @keyframes rohit{
+      0%{
+        top:20px;
+        right:0px
+        
+      }
+      10%{
+        top:20px;
+        right:10px
+      }
+  }
+  
+
+  #box2{
+    height:180px;
+    width:500px;
+    background:white; 
+    grid-area: b;
+    border-radius: 4px;
+    box-shadow: -0px -7px #20c997;
+    position: relative;
+    animation-name: rohit2;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+  }
+  @keyframes rohit2{
+    0%{
+      top:20px;
+      right:0px
+      
+    }
+    10%{
+      top:20px;
+      right:10px
+    }
+}
+
+
+  #box3{
+    height:180px;
+    width:500px;
+    background:white;
+    grid-area:c;
+    border-radius: 4px;
+    box-shadow: -0px -7px #007bff;
+    position: relative;
+    animation-name: rohit3;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+  }
+  @keyframes rohit3{
+    0%{
+      top:20px;
+      right:0px
+      
+    }
+    10%{
+      top:20px;
+      right:10px
+    }
+}
+  #box4{
+    height:180px;
+    width:500px;
+    background:white;
+    grid-area:d;
+    border-radius: 4px;
+    box-shadow: -0px -7px tomato;
+    position: relative;
+    animation-name: rohit4;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+  }
+  @keyframes rohit4{
+    0%{
+      top:20px;
+      right:0px
+      
+    }
+    10%{
+      top:20px;
+      right:10px
+    }
+}
