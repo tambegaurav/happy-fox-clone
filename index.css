@@ -114,7 +114,7 @@ button:focus {
   }
   .visible {
     display: flex;
-    background-color: rgba(202, 202, 202, 0.836);
+    background-color: rgba(255, 255, 255, 0.973);
     flex-direction: column;
     position: absolute;
     margin-top: 60px;
