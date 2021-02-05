@@ -176,17 +176,19 @@ body {
   background-color: white;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   min-height: 300px;
-  height: auto;
+  height: 400px;
   padding: 1%;
-  padding-top: 2%;
+  padding-top: 5%;
   min-width: 250px;
   margin-top:2% ;
+  font-weight: 100;
 }
 .Type_pricing:hover {
   box-shadow: 10px 50px 70px 0 rgba(0, 0, 0, 0.1);
 }
 .Type_pricing h1 {
   margin-bottom: 6%;
+  font-weight: 100;
 }
 
 .price_btn {
@@ -507,6 +509,38 @@ body {
   /* background-color: #e7695a; */
   color: black;
   /* font-size: large; */
+}
+
+footer{
+  padding: 1%;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+footer hr{
+  border: 0.1px solid  rgb(105, 105, 105);
+  color: rgb(105, 105, 105);
+}
+.footer{
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+li{
+  margin: 2%;
+}
+.footer img{
+  padding-top:1% ;
+}
+@media(max-width: 900px){
+  .footer{
+
+  }
 }
 
 @media screen and (max-width: 1080px) {
