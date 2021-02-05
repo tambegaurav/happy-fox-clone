@@ -92,7 +92,7 @@ body {
 .type_agents a {
   text-decoration: none;
   flex-wrap: wrap;
-  min-width: 800px;
+  min-width: 700px;
 }
 .type_agents a:nth-child(1) {
   height: 100px;
@@ -118,6 +118,9 @@ body {
 }
 .type_agents a > p {
   margin-top: 1%;
+}
+.Type_pricing hr{
+  margin-bottom: 4%;
 }
 .type_agents a:nth-child(2) {
   color: white;
@@ -161,6 +164,8 @@ body {
   height: auto;
   padding: 1%;
   padding-top: 2%;
+  min-width: 250px;
+  margin-top:2% ;
 }
 .Type_pricing:hover {
   box-shadow: 10px 50px 70px 0 rgba(0, 0, 0, 0.1);
@@ -175,9 +180,13 @@ body {
   flex-direction: column;
   margin-bottom: 10%;
 }
+.plus span{
+  font-weight: 700;
+}
 
-.price_btn button {
-  width: 100%;
+.price_btn a {
+  text-decoration: none;
+  width: 80%;
   display: inline-block;
   padding: 10px 15px;
   border: 1px solid #000;
@@ -188,10 +197,16 @@ body {
   margin: 1.5%;
 }
 
-.price_btn button.filled {
+
+.price_btn a.filled {
   background-color: rgba(231, 105, 90, 0.05);
   border: solid 1px #e7695a;
   color: #e7695a;
+}
+.price_btn a:nth-child(1):hover {
+  background-color:#e7695a ;
+  color: white;
+  font-size: large;
 }
 
 /* .price_btn a:nth-child(1){
@@ -279,6 +294,7 @@ body {
   /* width: 20px; */
   font-size: 20px;
   width: 300px;
+  min-width: 90px;
   /* margin-left: 70px;
     text-align:unset; */
 }
@@ -296,8 +312,43 @@ body {
   font-size: 17px;
   color: #f16631;
 }
+/* .naming{
+  text-align: ;
+} */
 .odd_Even:nth-child(2n) {
   background-color: #ffffff;
+}
+.xyz {
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg");
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 60px;
+  height: 30px;
+  margin: auto;
+}
+.xyz_exception {
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg"); */
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 60px;
+  height: 30px;
+  margin: auto;
+}
+.hover:hover {
+  background-color: rgb(235, 232, 232);
+  border: 0.5px dashed gray;
 }
 #content {
   display: flex;
@@ -332,7 +383,7 @@ body {
 .question_row {
   margin-top: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -340,7 +391,7 @@ body {
   font-size: 28px;
   color: #323643;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 2%;
   flex-flow: row;
 }
 .faq_start > h2 {
@@ -354,41 +405,13 @@ body {
 }
 .question_column {
   flex-grow: 0;
-  width: 48%;
-  margin-top: 10px;
+  font-size: large;
+  line-height: 30px;
+  width: 45%;
+  height: 150px;
+  margin-top: 25px;
 }
-.xyz {
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: left;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg");
-  background-size: auto;
-  background-origin: padding-box;
-  background-clip: border-box;
-  width: 60px;
-  height: 30px;
-  margin: auto;
-}
-.xyz_exception {
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: left;
-  background-position-y: top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  /* background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-tick.svg"); */
-  background-size: auto;
-  background-origin: padding-box;
-  background-clip: border-box;
-  width: 60px;
-  height: 30px;
-  margin: auto;
-}
-.hover:hover {
-  background-color: rgb(235, 232, 232);
-  border: 0.5px dashed gray;
-}
+
 #FAQ {
   width: 80%;
   height: auto;
@@ -418,6 +441,10 @@ body {
   margin: auto;
   width: 50%;
 }
+.floating div:nth-child(1){
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 .floating p {
   color: #88898a;
   font-size: 18px;
@@ -427,16 +454,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   padding-top: 3%;
+  margin-top: 5%;
 }
 .contact_btn button {
   /* padding: 5%; */
   width: 30%;
   height: 50px;
   border-radius: 6px;
+  
 }
 .contact_btn button:hover {
+  width: 32%;
+  color: white;
+  font-size: large;
 }
 .contact_btn button:nth-child(2) {
   background-color: rgba(231, 105, 90, 0.05);
@@ -451,4 +483,107 @@ body {
   /* background-color: #e7695a; */
   color: black;
   /* font-size: large; */
+}
+
+@media screen and (max-width: 1080px) {
+  .right-buttons {
+    display: none;
+  }
+  .Type_pricing{
+    margin-top:2% ;
+    min-width: 300px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .sandwich {
+    display: none;
+  }
+}
+
+@media(max-width: 900px)
+{
+  .box_in{
+    margin-left: 1px;
+    min-width:300px;
+  }
+  .type_agents{
+    margin: 0%;
+    min-width: auto;
+    /* min-height: 150px; */
+    margin-left:10px;
+  }
+  .type_agents p{
+    display: none;
+  }
+  #header > div {
+    min-width: 60px;
+  }
+  #Pricing_plan{
+    flex-flow: column;
+  }
+  .contact_btn{
+    margin-top: 0%;
+  }
+  .Type_pricing{
+    padding: 3%;
+    margin: auto;
+    margin-top:2% ;
+    min-width: 95%;
+  }
+  .Type_pricing h1{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .Type_pricing  .price_btn{
+    margin-bottom: 2%;
+  }
+  .Type_pricing hr{
+    margin-bottom: 4%;
+  }
+  .faq_start{
+    margin-top: 2%;
+  }
+  .question_row{
+    height: auto;
+    min-width: 500px;
+    flex-flow: column;
+  }
+  .question_column{
+    min-width: 80%;
+    line-height: 30px;
+    margin: auto;
+    font-size: large;
+    margin-top: 2%;
+  }
+  .question_column p{
+    font-size: large;
+  }
+  .floating{
+    min-width: 500px;
+  }
+  .floating >div{
+    width: 80%;
+    margin: 5% auto;
+  }
+  /* .naming{
+    height: 350px;
+
+  } */
+  #content> div,#content_1> div,#content_2> div,#content_3> div{
+    height: 50px;
+  }
+  .floating button{
+    min-width: 300px;
+    margin: 2%;
+  }
+    #login_page
+    {
+        grid-template: "one";
+        justify-content: center;
+    }
+    .right-div
+    {
+        display: none;
+
+    }
 }

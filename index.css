@@ -290,7 +290,6 @@ button:focus {
 .titles > .title:hover {
   border-bottom: 3px solid orange;
 }
-
 /* alignyourgoals */
 .jumbotron > .align-goals-sections {
   background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/goal-background.svg");
@@ -416,3 +415,4 @@ a {
 .help-desk-section {
   background-color: violet;
 }
+
