@@ -1,6 +1,4 @@
 
-
-
 /* Uses for font style of all */
 * {
   font-family: "Work Sans", sans-serif;
@@ -11,7 +9,6 @@
 /* Body background color */
 body {
   background-color: #1e212c;
-
 }
 
 /* Uses this class for left side div */
@@ -45,7 +42,7 @@ body {
   color: #282529;
 }
 
-/* Form lable layout coloumn wise in right side div*/
+/* Form lable layout coloumn wise in right side div and also uses for responsive screen */
 form {
   display: flex;
   flex-direction: column;
@@ -168,8 +165,7 @@ form {
   background-color: #191b23;
   margin-left: 30px;
   margin-top: 50px;
-  border-radius: 15px;
-  
+  border-radius: 15px;  
 }
 
 /* uses for image keep on box_3 */
