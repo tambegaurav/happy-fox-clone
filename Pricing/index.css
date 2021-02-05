@@ -537,6 +537,10 @@ li{
 .footer img{
   padding-top:1% ;
 }
+.for_footer{
+  width: 80%;
+  margin: auto;
+}
 @media(max-width: 900px){
   .footer{
 
