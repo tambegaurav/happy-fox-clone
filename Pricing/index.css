@@ -368,7 +368,7 @@ body {
 }
 .hover:hover {
   background-color: rgb(235, 232, 232);
-  border: 0.5px dashed gray;
+  border: 0.5px solid gray;
 }
 #content {
   display: flex;
@@ -419,9 +419,9 @@ body {
 }
 .faq {
   display: table;
-  margin: 0 auto 120px;
-  max-width: 1140px;
-  width: 100%;
+  margin:auto 10%;
+  /* width: 1140px; */
+  width: auto;
 }
 .question_column {
   flex-grow: 0;
@@ -435,7 +435,7 @@ body {
   
 }
 #FAQ {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -655,7 +655,28 @@ li{
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  #header > div:nth-child(1) {
+    width: 30px;
+  }
+  #content div,#content_1 div,#content_2 div,#content_3 div{
+    height: 70px;
+    text-align: left;
+    /* margin: auto; */
+    /* flex-wrap:nowrap; */
+  }
+  .title{
+    /* display: none; */
+    /* position:fixed; */
+     /* float:auto; */
+    width: 120px;
+    height:130px; 
+     /* margin-top: -10px; */
+  }
+  .xyz{
+    /* margin: 0px; */
+    /* flex-wrap: wrap; */
+    /* float: left; */
+  }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
