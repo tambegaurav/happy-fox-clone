@@ -20,6 +20,8 @@ body {
   grid-template-rows:  800px;
   grid-template: "one two";
   margin: auto;
+
+ 
 }
 .left-div
 {
@@ -146,7 +148,7 @@ text-align: right;
 }
 .right-div>div>div
 {
-    position:absolute;
+    position: absolute;
     height: 190px;
     width: 400px;
     background-color: rgb(237,239,249); 
