@@ -131,6 +131,81 @@
           <div class="title">Get things done, fast</div>
         </div>
       </div>
+      <div class="align-goals-sections">
+        <h4>Align your goals.</h4>
+        <h3>Improve your ROI</h3>
+        <div class="goals">
+          <div class="card">
+            <img
+              src="https://hfweb-assets.s3.amazonaws.com/v2/images/handle-icon.svg"
+              alt=""
+            />
+            <div class="text">
+              <h6>Handle all inbound requests in one ticketing system</h6>
+              <p>
+                Convert email, phone, chat and web requests into tickets and
+                keep them organized.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://hfweb-assets.s3.amazonaws.com/v2/images/outsource-icon.svg"
+              alt=""
+            />
+            <div class="text">
+              <h6>Ease your day with a smart help desk software</h6>
+              <p>
+                Outsource complex and redundant workflows to a powerful smart
+                rules engine.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://hfweb-assets.s3.amazonaws.com/v2/images/analyse-icon.svg"
+              alt=""
+            />
+            <div class="text">
+              <h6>Analyse help desk metrics & create solid actions</h6>
+              <p>
+                A ticketing system that can crunch your support process data.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://hfweb-assets.s3.amazonaws.com/v2/images/setting-icon.svg"
+              alt=""
+            />
+            <div class="text">
+              <h6>Tailor your support ticket system in all forms</h6>
+              <p>
+                Create your own custom fields, workflows & personalize the
+                support experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="goals-buttons">
+          <button>View all features</button>
+          <button><a href="./Demo/index.html">Get a Demo</a></button>
+        </div>
+      </div>
+      <div class="help-desk-section">Hello</div>
     </div>
+    <script>
+      var navDropdown = document.querySelector(".right-buttons");
+      var sandwich = document.querySelector(".sandwich");
+
+      function navVisible() {
+        navDropdown.setAttribute("class", "right-buttons visible");
+      }
+      function hidenav() {
+        navDropdown.setAttribute("class", "right-buttons");
+      }
+      sandwich.addEventListener("click", navVisible);
+      navDropdown.addEventListener("click", hidenav);
+    </script>
   </body>
 </html>
