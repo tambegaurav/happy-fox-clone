@@ -1,27 +1,3 @@
-
-var ary_header=["kota","sai","reddy","krishna"];
-var z=[
-    'Unlimited Mailboxe',
-    'Unlimited Categories',
-    'Unlimited Tickets',
-    'Customizable Statuses',
-    'Customizable Priorities',
-    'Ticket Custom Fields',
-    'Custom Domain Mapping',
-    'Multilingual Agent Portal',
-    'Agent Collision',
-    'Work Schedules',
-    'Custom Roles and Permissions',
-    'Satisfaction Surveys',
-    'Custom Ticket Queues',
-    'Kanban view of tickets',
-    'Proactive Agent Collision',
-    'Task Management',
-    'Asset Management',
-    'Unlimited Assets',
-    'Sentiment Analysis',
-    'Attachment Store',
-    'Lite Agents *'];
 var obj={
     heading:["","Mighty","Fantastic","Enterprise","Enterprise Plus"],
     title:"TICKET MANAGEMENT",
@@ -90,6 +66,7 @@ function heading(){
 }
 
 function first(){
+    count=0
     for(var i=0;i<cont.z.length;i++){
         var d=document.createElement("div")
         var p=document.createElement("p")
@@ -133,6 +110,7 @@ function first(){
 
 
 function cust_mang(){
+    count=0
     for(var i=0;i<cont.cust_mang.length;i++){
         var d=document.createElement("div")
         var p=document.createElement("p")
@@ -145,25 +123,9 @@ function cust_mang(){
             // div.textContent=cont.values[j]
             div.setAttribute("class","naming")
             div.setAttribute("class","xyz")
-            if(count==69 || count==70 || count==73 || count==74 || count==75 || count==81 || count==82 ||count==83 ||count==66 ||count==65 ||count==61 ||count==62 ||count==58 ||count==57 ||count==53 ||count==49  || count==45 ){
+            if(count==17 || count==18 || count==73 || count==74 || count==75 || count==81 || count==82 ||count==83 ||count==66 ||count==65 ||count==61 ||count==62 ||count==58 ||count==57 ||count==53 ||count==49  || count==45 ){
                 div.textContent="--"
                 div.setAttribute("class","xyz_exception")
-            }
-            if(count==77){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="50GB"
-            }
-            if(count==78){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="500GB"
-            }
-            if(count==79){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="1TB"
-            }
-            if(count==80){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="2TB"
             }
             d.appendChild(div)
         
@@ -175,6 +137,7 @@ function cust_mang(){
 }
 
 function Help_dsk(){
+    count=0
     for(var i=0;i<cont.Help_desk_Automation.length;i++){
         var d=document.createElement("div")
         var p=document.createElement("p")
@@ -187,26 +150,11 @@ function Help_dsk(){
             // div.textContent=cont.values[j]
             div.setAttribute("class","naming")
             div.setAttribute("class","xyz")
-            if(count==69 || count==70 || count==73 || count==74 || count==75 || count==81 || count==82 ||count==83 ||count==66 ||count==65 ||count==61 ||count==62 ||count==58 ||count==57 ||count==53 ||count==49  || count==45 ){
+            if(count==43 || count==42 || count==41 || count==38 || count==37 || count==34 || count==33 ||count==29 ||count==25 ||count==21 ){
                 div.textContent="--"
                 div.setAttribute("class","xyz_exception")
             }
-            if(count==77){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="50GB"
-            }
-            if(count==78){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="500GB"
-            }
-            if(count==79){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="1TB"
-            }
-            if(count==80){
-                div.setAttribute("class","xyz_exception")
-                div.textContent="2TB"
-            }
+            
             d.appendChild(div)
         
         }
@@ -221,6 +169,7 @@ function main(){
     first()
     cust_mang()
     Help_dsk()
+    count=0
     
 // ---------------------------------------------
 
@@ -240,25 +189,21 @@ for(var i=0;i<cont.Supt_Center.length;i++){
         // div.textContent=cont.values[j]
         div.setAttribute("class","naming")
         div.setAttribute("class","xyz")
-        if(count==69 || count==70 || count==73 || count==74 || count==75 || count==81 || count==82 ||count==83 ||count==66 ||count==65 ||count==61 ||count==62 ||count==58 ||count==57 ||count==53 ||count==49  || count==45 ){
+        if(count==46 || count==45 || count==41 || count==37 || count==33 || count==29 ){
             div.textContent="--"
             div.setAttribute("class","xyz_exception")
         }
-        if(count==77){
+        if(count==44){
             div.setAttribute("class","xyz_exception")
-            div.textContent="50GB"
+            div.textContent="25 brands"
         }
-        if(count==78){
+        if(count==43){
             div.setAttribute("class","xyz_exception")
-            div.textContent="500GB"
+            div.textContent="15 brands"
         }
-        if(count==79){
+        if(count==42){
             div.setAttribute("class","xyz_exception")
-            div.textContent="1TB"
-        }
-        if(count==80){
-            div.setAttribute("class","xyz_exception")
-            div.textContent="2TB"
+            div.textContent="5 brands"
         }
         d.appendChild(div)
     
@@ -274,5 +219,3 @@ main()
 
 
  
-
- console.log(typeof(z));
