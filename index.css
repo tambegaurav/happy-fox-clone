@@ -37,7 +37,7 @@ button:focus {
   height: 60px;
   -webkit-box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
   -moz-box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
-  box-shadow: 0px 5px 10px 0pxrgba (105, 105, 105, 0.35);
+  box-shadow: 0px 5px 10px 0px rgba(105, 105, 105, 0.35);
 }
 .helpdesk-nav > div {
   padding: 0 2.5%;
@@ -295,9 +295,11 @@ button:focus {
   background: url("https://hfweb-assets.s3.amazonaws.com/v2/images/goal-background.svg");
   background-repeat: no-repeat;
   width: 100%;
+  background-size: cover;
+  margin-bottom: 100px;
 }
 
-.align-goals-sections h4 {
+.align-goals-sections > h4 {
   text-align: center;
   font-size: 32px;
   font-weight: 200;
@@ -305,11 +307,12 @@ button:focus {
   margin-top: 130px;
 }
 
-.align-goals-sections h3 {
+.align-goals-sections > h3 {
   font-weight: 400;
   margin: 10px 0 60px;
   text-align: center;
   font-size: 32px;
+  color: white;
 }
 
 .goals {
@@ -327,6 +330,7 @@ button:focus {
   margin: 20px;
   padding: 15px;
   padding-top: 30px;
+  transition: all 0.5s;
 }
 
 .goals > .card > .text {
@@ -342,6 +346,9 @@ button:focus {
 .goals > .card > .text p {
   font-size: 15px;
 }
+.goals > .card:hover {
+  background-color: #02020298;
+}
 
 @media (max-width: 1200px) {
   .goals > .card {
@@ -349,10 +356,6 @@ button:focus {
     width: 100%;
     justify-self: center;
     background-color: #00000033;
-    margin: -10px;
-    padding: 12px;
-    padding-top: 15px;
-    margin-bottom: 10px;
   }
   .goals {
     grid-template-columns: 80%;
@@ -416,3 +419,70 @@ a {
   background-color: violet;
 }
 
+.help-desk-section > p,
+h3,
+.business-app > p,
+h3 {
+  font-size: 32px;
+  color: #323643;
+  word-spacing: 3px;
+  font-weight: 300px;
+  line-height: 50px;
+}
+
+.business-app {
+  margin-top: 50px;
+}
+.business-app > .apps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.business-app > .apps > div {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(59, 59, 59, 0.35);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(54, 54, 54, 0.35);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(58, 58, 58, 0.35);
+  align-items: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 80px;
+  transition: 0.5s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.business-app > .apps > div:hover {
+  transform: translate(2px, -2px);
+}
+.integration-btn {
+  padding: 0 10px;
+  background-color: #181c20 !important;
+  color: white !important;
+}
+
+.integration-btn:hover {
+  background-color: white !important ;
+  color: #181c20 !important;
+  border: 2px solid #2b2f33 !important;
+}
+@media (max-width: 900px) {
+  .business-app > .apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .business-app > .apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+  }
+}
