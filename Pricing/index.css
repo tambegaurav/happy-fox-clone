@@ -5,10 +5,10 @@ body {
 }
 
 .main {
-  width: 99%;
+  width: 100%;
   height: auto;
   margin: auto;
-  margin-top: 138px;
+  margin-top: 120px;
   margin-left: 0%;
 }
 
@@ -44,7 +44,8 @@ body {
 #Pricing {
   width: 100%;
   margin: auto;
-  padding: 0.5%;
+  padding: 0.1%;
+  /* height: ; */
   padding-bottom: 0%;
   background-image: url("https://hfweb-assets.s3.amazonaws.com/v2/images/pricing-banner-bg.svg ");
 }
@@ -78,35 +79,47 @@ body {
 }
 
 .type_agents {
-  min-width: 500px;
+  min-width: 400px;
   max-width: auto;
-  width: 95%;
+  /* width: 95%; */
   display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: flex-end;
+  margin: auto;
+  flex-grow: 1;
+  /* justify-content:right; */
+  /* align-items:cen; */
   /* border: 1px solid brown; */
-  margin-top: 3%;
+  /* margin-top: 3%; */
 }
 
 .type_agents a {
+  flex-grow: 1;
   text-decoration: none;
   flex-wrap: wrap;
-  min-width: 700px;
+  /* margin-left: 0;
+  margin-right: 0; */
+  min-width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px; 
 }
 .type_agents a:nth-child(1) {
   height: 100px;
-  width: 50%;
+  width: 30%;
   margin: auto;
   color: white;
-  border-radius: 4%;
   background-color: #e7695a;
   min-width: 100px;
   min-height: 120px;
   max-width: auto;
 }
+.type_agents a:nth-child(2){
+  /* width: 61%; */
+  border-top-left-radius: 10px;
+  border-top-right-radius:10%;
+}
 .type_agents a:nth-child(2):hover {
   color: white;
+  /* height: 125px; */
+  /* width: 45%; */
   background-color: rgb(68, 68, 143);
 }
 .type_agents a > h4 {
@@ -125,11 +138,13 @@ body {
 .type_agents a:nth-child(2) {
   color: white;
   height: 100px;
-  width: 40%;
+  width: 30%;
   margin: auto;
   color: rgb(31, 31, 31);
-  border-radius: 4%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   /* background-color: rgb(255, 94, 0); */
+  border:1px solid rgb(209, 209, 209);
   min-width: 100px;
   min-height: 120px;
   max-width: auto;
@@ -137,7 +152,7 @@ body {
 
 #type_of_pricing {
   padding: 10%;
-  padding-top: 5%;
+  padding-top: 1%;
   padding-right: 10%;
   background-image: linear-gradient(
     to bottom,
@@ -295,6 +310,7 @@ body {
   font-size: 20px;
   width: 300px;
   min-width: 90px;
+  margin-bottom: 2%;
   /* margin-left: 70px;
     text-align:unset; */
 }
@@ -309,6 +325,8 @@ body {
   text-align: unset;
 }
 #table > h3 {
+  margin-top:2% ;
+  margin-bottom:2% ;
   font-size: 17px;
   color: #f16631;
 }
@@ -408,10 +426,12 @@ body {
   font-size: large;
   line-height: 30px;
   width: 45%;
-  height: 150px;
+  height:auto;
   margin-top: 25px;
+  color: #706b6b;
+  margin-bottom: 20px;
+  
 }
-
 #FAQ {
   width: 80%;
   height: auto;
@@ -443,9 +463,11 @@ body {
 }
 .floating div:nth-child(1){
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 .floating p {
+  margin-top: 10px;
+  line-height: 29px;
   color: #88898a;
   font-size: 18px;
 }
@@ -456,19 +478,21 @@ body {
   justify-content: space-evenly;
   /* margin-top: 10%; */
   padding-top: 3%;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 .contact_btn button {
   /* padding: 5%; */
   width: 30%;
   height: 50px;
+  font-size: 16px;
   border-radius: 6px;
   
 }
 .contact_btn button:hover {
-  width: 32%;
+  /* width: 32%; */
+  transform:translateY(2px);
   color: white;
-  font-size: large;
+  /* font-size: large; */
 }
 .contact_btn button:nth-child(2) {
   background-color: rgba(231, 105, 90, 0.05);
@@ -479,7 +503,7 @@ body {
 }
 .contact_btn button:nth-child(1) {
   background-color: rgb(255, 255, 255);
-  border: solid 1px #e7695a;
+  border: solid 1px #000000;
   /* background-color: #e7695a; */
   color: black;
   /* font-size: large; */
@@ -587,3 +611,19 @@ body {
 
     }
 }
+@media(max-width: 900px){
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
