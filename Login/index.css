@@ -1,5 +1,5 @@
 body {
-  width: auto;
+  width: 100%;
   height: auto;
   background-color: whitesmoke;
 }
@@ -14,16 +14,16 @@ body {
   width: 100%;
   display: grid;
   /* justify-content: center; */
-  gap: 0px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 800px;
+  gap: 5%;
+  grid-template-columns: 60% 35%;
+  grid-template-rows: 100vh;
   grid-template: "one two";
-  margin: auto;
+
 }
 .left-div {
   grid-area: one;
+  margin-right: 40px;
   padding-left: 40px;
-  padding-left: 20px;
 }
 .right-div {
   grid-area: two;
@@ -80,7 +80,7 @@ body {
   font-size: 17px;
   color: white;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border: none;
 }
 .Forgot_password {
@@ -99,7 +99,7 @@ body {
 
   width: 300px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: right;
 
 }
@@ -110,7 +110,7 @@ body {
 
 .right-div > div > div > .ai-box {
   margin: 20px;
-  width: 370px;
+  width: 300px;
   height: 50px;
   background-color: rgb(237, 239, 249);
 }
@@ -123,10 +123,6 @@ body {
   border-radius: 5px;
   margin-right: 15px;
   /* margin: 5px; */
-}
-.for_float {
-  /* float: left; */
-  /* clear: both; */
 }
 .right-div > div > div {
   position: absolute;
@@ -158,14 +154,15 @@ body {
   width: 85px;
   height: 27px;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 13px;
   text-align: center;
   border-radius: 40px;
   padding-top: 10px;
+  
 }
 .chat_box_massage > div:nth-child(1) {
   float: left;
-  width: 300px;
+  width: 350px;
 }
 footer {
   padding: 1%;
@@ -207,7 +204,13 @@ footer{
     padding-top:1% ;
 
   }
+  @media(max-width:1080px)
+  {
+    .login_page{
+  grid-template:"one";
+  justify-content: center;
+  }
   .right-div {
     display: none;
   }
-}
+  }
