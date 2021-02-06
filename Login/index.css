@@ -1,239 +1,206 @@
 body {
-    width: auto;
-    height: auto;
-    background-color: whitesmoke;
-  }
-.main{
-    width: 100%;
+  width: auto;
+  height: auto;
+  background-color: whitesmoke;
+}
+.main {
+  width: 100%;
   height: auto;
   margin: auto;
   margin-top: 10%;
   margin-left: 0%;
 }
-#login_page
-{
-    width: 100%;
+#login_page {
+  width: 100%;
   display: grid;
   /* justify-content: center; */
   gap: 50px;
   grid-template-columns: 60% 50%;
-  grid-template-rows:  800px;
+  grid-template-rows: 800px;
   grid-template: "one two";
   margin: auto;
-
- 
 }
-.left-div
-{
-grid-area: one;
-padding-left: 40px;
-padding-left: 20px;
+.left-div {
+  grid-area: one;
+  padding-left: 40px;
+  padding-left: 20px;
 }
-.right-div
-{
-    grid-area:two;
-    float: right;
+.right-div {
+  grid-area: two;
+  float: right;
 }
-.left-div>div
-{
+.left-div > div {
   font-family: serif;
   width: 80%;
-  height:600px;
-  font-size: 35px ;
+  height: 600px;
+  font-size: 35px;
   padding-top: 19%;
   min-width: 300px;
   padding-left: 30px;
 }
-.first_row
-{
-    width: 470px;
-    background-color: lightgrey;
-     height: 40px;
-     text-align:right;
-     font-size: 15px;
-     font-family: 'Roboto';
-     border-radius: 5px;   
+.first_row {
+  width: 470px;
+  background-color: lightgrey;
+  height: 40px;
+  text-align: right;
+  font-size: 15px;
+  font-family: "Roboto";
+  border-radius: 5px;
 }
-.first_row>input
-{
-    width: 350px;
-    height: 20px;
-    padding-top: 12px;
-    font-size: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-top: 1px;
-    float: left;
-    text-align: left;
-    margin-left: 1px;
-    padding-left: 15px;
-    margin-bottom: 1px;
-    border: none;
+.first_row > input {
+  width: 350px;
+  height: 20px;
+  padding-top: 12px;
+  font-size: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 1px;
+  float: left;
+  text-align: left;
+  margin-left: 1px;
+  padding-left: 15px;
+  margin-bottom: 1px;
+  border: none;
 
-   text-align: justify;
-   padding-bottom: 6px;
+  text-align: justify;
+  padding-bottom: 6px;
 }
-.first_row>div
-{
-    text-align: left;
-    padding-top: 12px ;
-    font-size: 15px;
-    color: lightslategray;
+.first_row > div {
+  text-align: left;
+  padding-top: 12px;
+  font-size: 15px;
+  color: lightslategray;
 }
-.submit_button
-{
-    margin-top: 10px;
-    height: 40px;
-    background-color: rgb(241,102,49);
-    border-radius: 5px;
-    width: 150px;
-    /* border-color: rgb(241,102,49); */
-    font-size: 17px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 20px;
-    border:none ;
+.submit_button {
+  margin-top: 10px;
+  height: 40px;
+  background-color: rgb(241, 102, 49);
+  border-radius: 5px;
+  width: 150px;
+  /* border-color: rgb(241,102,49); */
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: none;
 }
-.Forgot_password
-{
-float: right;
-color: gray;
-width: 300px;
-margin-top: 20px;
-font-size: 17px;
-text-align: right;
+.Forgot_password {
+  float: right;
+  color: gray;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: right;
 }
-.submit_pass
-{
-    width: 470px;
-   
+.submit_pass {
+  width: 470px;
 }
-.Forgot_password
-{
-float: right;
+.Forgot_password {
+  float: right;
 
-width: 300px;
-margin-top: 20px;
-font-size: 20px;
-text-align: right;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
 }
-.submit_pass
-{
-    width: 470px;
-   
+.submit_pass {
+  width: 470px;
 }
 
-.right-div>div>div>div:nth-child(1)
-{
-    margin: 20px;
-    width: 370px;
-    height: 50px;  
-    background-color: rgb(237,239,249); 
-    
+.right-div > div > div > .ai-box {
+  margin: 20px;
+  width: 370px;
+  height: 50px;
+  background-color: rgb(237, 239, 249);
 }
-.right-div>div>div>div>div>div
-{
-    float: right;
-    width: 55px;
-    height: 25px;   
-    background-color: rgb(237,137,20);
-    text-align: center;
-    border-radius: 5px;
-    margin-right: 15px;
-    /* margin: 5px; */   
+.right-div > div > div > div > div > div {
+  float: right;
+  width: 55px;
+  height: 25px;
+  background-color: rgb(237, 137, 20);
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 15px;
+  /* margin: 5px; */
 }
-.for_float{
-    /* float: left; */
-    /* clear: both; */
+.for_float {
+  /* float: left; */
+  /* clear: both; */
 }
-.right-div>div>div
-{
-    position: absolute;
-    height: 190px;
-    width: 400px;
-    background-color: rgb(237,239,249); 
-    float: left;
-    border-radius: 10px;
-    margin: 100px;
-    /* clear: both; */
-    font-size: 20px;
+.right-div > div > div {
+  position: absolute;
+  height: 190px;
+  width: 400px;
+  background-color: rgb(237, 239, 249);
+  float: left;
+  border-radius: 10px;
+  margin: 100px;
+  /* clear: both; */
+  font-size: 20px;
 }
-.chat_box_massage
-{
-    margin-top: 10%;
-    height: 50px;
-    width: 470px;
-    font-size: 25px;
-    text-align: left;
- 
-    
+.chat_box_massage {
+  margin-top: 10%;
+  height: 50px;
+  width: 470px;
+  font-size: 25px;
+  text-align: left;
 }
 
-.chat_box_massage>div>img
-{
- float: left;
- margin-right: 15px;
-} 
-.chat_box_massage>div:nth-child(2)
-{
-    float:right;
-    background-color: rgb(241,238,238);
-    width: 85px;
-    height: 27px; 
-    border-radius: 10px;
-    font-size: 17px;
-    text-align: center;
-    border-radius: 40px;
-    padding-top: 10px;
-
+.chat_box_massage > div > img {
+  float: left;
+  margin-right: 15px;
 }
-.chat_box_massage>div:nth-child(1)
-{
-    float: left;
-    width: 300px;
-    
-
+.chat_box_massage > div:nth-child(2) {
+  float: right;
+  background-color: rgb(241, 238, 238);
+  width: 85px;
+  height: 27px;
+  border-radius: 10px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 10px;
 }
-footer{
-    padding: 1%;
-    height: auto;
-    width: 100%;
-    margin: auto;
-    background-color: black;
-    color: white;
+.chat_box_massage > div:nth-child(1) {
+  float: left;
+  width: 300px;
+}
+footer {
+  padding: 1%;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+footer hr {
+  border: 0.1px solid rgb(105, 105, 105);
+  color: rgb(105, 105, 105);
+}
+.footer {
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+li {
+  margin: 2%;
+}
+.footer img {
+  padding-top: 1%;
+}
+.for_footer {
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 900px) {
+  #login_page {
+    grid-template: "one";
+    justify-content: center;
   }
-  footer hr{
-    border: 0.1px solid  rgb(105, 105, 105);
-    color: rgb(105, 105, 105);
+  .right-div {
+    display: none;
   }
-  .footer{
-    list-style-type: none;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  li{
-    margin: 2%;
-  }
-  .footer img{
-    padding-top:1% ;
-  }
-  .for_footer{
-    width: 80%;
-    margin: auto;
-  }
-@media(max-width: 900px)
-{
-    #login_page
-    {
-        grid-template: "one";
-        justify-content: center;
-    }
-    .right-div
-    {
-        display: none;
-
-    }
 }
