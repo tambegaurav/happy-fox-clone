@@ -10,9 +10,13 @@ HTML 5
 
 CSS 3
 
+Flex & Grid
+
 Vanilla JS
 
 Git
+
+Netlify
 
 ## Contribution
 
