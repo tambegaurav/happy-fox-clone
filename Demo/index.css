@@ -21,6 +21,7 @@ body {
   border: 1px solid #1e212c;
   margin-top: 80px;
   margin-left: 150px;
+
 }
 
 /* Uses this class for Right side div */
@@ -32,6 +33,7 @@ body {
   float: left;
   margin: 50px;
   border-radius: 10px;
+  margin-left: 15%;
 }
 
 /* Uses for right side div inside Heading */
@@ -49,6 +51,7 @@ form {
   width: 100%;
   justify-content: center;
   align-items: center;
+  /* margin-left: ; */
 }
 
 /* Uses input class inside the form of all input in right side div*/
@@ -189,4 +192,53 @@ form {
   height: 15px;
   margin-left: 120px;
   margin-top: 1%;
+}
+
+ /* for the footer */
+
+ footer{
+  padding: 1%;
+  height: auto;
+  width: auto;
+  margin: auto;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+footer hr{
+  border: 0.1px solid  rgb(105, 105, 105);
+  color: rgb(105, 105, 105);
+}
+.footer{
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+li{
+  margin: 2%;
+}
+.footer img{
+  padding-top:1% ;
+}
+.for_footer{
+  width: 80%;
+  margin: auto;
+}
+
+@media(max-width: 900px)
+{
+  .left_box1{
+    width: 80%;
+    margin: auto;
+    margin-left: 15%;
+  }
+  .right_box2{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
 }

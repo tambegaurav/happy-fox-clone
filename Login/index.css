@@ -61,7 +61,6 @@ body {
   padding-left: 15px;
   margin-bottom: 1px;
   border: none;
-
   text-align: justify;
   padding-bottom: 6px;
 }
@@ -102,10 +101,12 @@ body {
   margin-top: 20px;
   font-size: 20px;
   text-align: right;
+
 }
 .submit_pass {
   width: 470px;
 }
+
 
 .right-div > div > div > .ai-box {
   margin: 20px;
@@ -144,6 +145,7 @@ body {
   width: 470px;
   font-size: 25px;
   text-align: left;
+
 }
 
 .chat_box_massage > div > img {
@@ -177,28 +179,33 @@ footer hr {
   border: 0.1px solid rgb(105, 105, 105);
   color: rgb(105, 105, 105);
 }
-.footer {
-  list-style-type: none;
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-li {
-  margin: 2%;
-}
-.footer img {
-  padding-top: 1%;
-}
-.for_footer {
-  width: 80%;
-  margin: auto;
-}
-@media (max-width: 900px) {
-  #login_page {
-    grid-template: "one";
-    justify-content: center;
+
+footer{
+    padding: 1%;
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: black;
+    color: white;
+  }
+  footer hr{
+    border: 0.1px solid  rgb(105, 105, 105);
+    color: rgb(105, 105, 105);
+  }
+  .footer{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  li{
+    margin: 2%;
+  }
+  .footer img{
+    padding-top:1% ;
+
   }
   .right-div {
     display: none;
