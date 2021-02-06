@@ -12,6 +12,37 @@
       href="//hfweb-assets.s3.amazonaws.com/img/favicon.ico?r=1612323963195"
       type="image/x-icon"
     />
+    <style type="text/css">
+      footer {
+        padding: 0;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(26, 26, 26);
+        color: white;
+      }
+      footer hr {
+        color: white;
+      }
+      .footer {
+        list-style-type: none;
+        background-color: rgb(22, 22, 22);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      li {
+        margin: 2%;
+      }
+      .footer img {
+        padding-top: 1%;
+      }
+      @media (max-width: 900px) {
+        .footer {
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="header">
@@ -267,6 +298,70 @@
         </div>
       </div>
     </div>
+    <footer>
+      <hr />
+      <div>
+        <ul class="footer">
+          <li>
+            <a>
+              <img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/helpdesk-footer.svg"
+                alt=""
+              /><span> Help Desk</span></a
+            >
+          </li>
+          <li>
+            <a
+              ><img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/hf-assist-ai-footer.svg"
+                alt=""
+              /><span> Assist AI</span></a
+            >
+          </li>
+          <li>
+            <a
+              ><img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/livechat-footer.svg"
+                alt=""
+              /><span> Live Chat</span></a
+            >
+          </li>
+          <li>
+            <a
+              ><img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/chatbot-footer.svg"
+                alt=""
+              /><span> Chatbot</span></a
+            >
+          </li>
+          <li>
+            <a
+              ><img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/bi-footer.svg"
+                alt=""
+              /><span> Business Intelligence</span></a
+            >
+          </li>
+          <li>
+            <a
+              ><img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/workflows-footer.svg"
+                alt=""
+              /><span> Workflows</span></a
+            >
+          </li>
+          <li>
+            <a
+              ><img
+                src="https://hfweb-assets.s3.amazonaws.com/v2/images/bottom-footer/inapp-chat-footer.svg"
+                alt=""
+              /><span>In-App Chat</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <hr />
+    </footer>
     <script>
       var navDropdown = document.querySelector(".right-buttons");
       var sandwich = document.querySelector(".sandwich");
