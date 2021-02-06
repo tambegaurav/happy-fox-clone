@@ -14,8 +14,8 @@ body {
   width: 100%;
   display: grid;
   /* justify-content: center; */
-  gap: 50px;
-  grid-template-columns: 60% 50%;
+  gap: 0px;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 800px;
   grid-template: "one two";
   margin: auto;
